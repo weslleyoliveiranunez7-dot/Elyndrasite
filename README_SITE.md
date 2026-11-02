@@ -1,15 +1,17 @@
-# ELYNDRA — Site oficial de lançamento
+# ELYNDRA — Site oficial
 
-Site informativo, sem o jogo incorporado, com navegação funcional, filtros de desenvolvimento, modais de detalhes, contagem regressiva e plataformas PC/Android.
+Site estático preparado para publicação no GitHub Pages.
 
-## Desenvolvimento
-Os status foram transcritos dos handoffs V1.5–V1.8 e do README presentes no ZIP original. “Implementado” significa documentado no projeto; não significa que esta entrega tenha executado testes completos no jogo. Itens não testados e pendências são identificados separadamente.
+## Beta Android
+O APK de testes está em `downloads/ELYNDRA-beta.apk`. O botão da seção **BETA PARA TESTADORES** baixa diretamente esse arquivo.
 
-## Publicar no GitHub Pages
-1. Envie os arquivos desta pasta para a raiz do repositório GitHub.
-2. Em Settings → Pages, escolha GitHub Actions como fonte.
-3. O workflow `.github/workflows/pages.yml` publica o conteúdo da raiz.
-4. A página inicial é `index.html`.
+## Publicar/atualizar o site
+1. Envie o conteúdo deste repositório para a branch `main`.
+2. No GitHub, abra **Settings → Pages** e selecione **GitHub Actions** como fonte, se ainda não estiver configurado.
+3. O workflow `.github/workflows/pages.yml` publica automaticamente o site a cada atualização na branch `main`.
+4. Confira a aba **Actions** e abra o endereço publicado pelo GitHub Pages.
 
-## Nota
-PC e Android são as plataformas informadas para o lançamento. Requisitos, lojas e links de download ainda não estão configurados.
+## Observações
+- O contador regressivo original foi preservado e continua atualizando a cada segundo até 08/11/2026.
+- A página identifica o APK como **beta para testadores**, não como versão final.
+- O arquivo APK foi copiado sem alteração; este pacote não modifica o conteúdo interno do jogo.
