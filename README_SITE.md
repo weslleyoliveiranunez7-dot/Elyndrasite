@@ -3,7 +3,10 @@
 Site estático preparado para publicação no GitHub Pages.
 
 ## Beta Android
-O APK de testes está em `downloads/ELYNDRA-beta.apk`. O botão da seção **BETA PARA TESTADORES** baixa diretamente esse arquivo.
+O botão **BAIXAR APK BETA** direciona para o Google Drive:
+https://drive.google.com/file/d/11B2SXl9JrTf3bUPy-_uBEkByV8K-oKNi/view?usp=drivesdk
+
+Confirme que o compartilhamento do arquivo no Drive permite que os testadores com o link o visualizem e baixem.
 
 ## Publicar/atualizar o site
 1. Envie o conteúdo deste repositório para a branch `main`.
@@ -14,4 +17,4 @@ O APK de testes está em `downloads/ELYNDRA-beta.apk`. O botão da seção **BET
 ## Observações
 - O contador regressivo original foi preservado e continua atualizando a cada segundo até 08/11/2026.
 - A página identifica o APK como **beta para testadores**, não como versão final.
-- O arquivo APK foi copiado sem alteração; este pacote não modifica o conteúdo interno do jogo.
+- O APK é hospedado no Google Drive, não dentro do repositório do site.
